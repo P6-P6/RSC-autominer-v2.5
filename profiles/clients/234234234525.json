@@ -1,0 +1,21 @@
+{
+  "task": "Mining",
+  "speed": "fast",
+  "walkto_enabled": true,
+  "walkto_min_clicks": 35,
+  "walkto_max_clicks": 50,
+  "walkto_dest_a": "Varrock East",
+  "walkto_dest_b": "Bank (Varrock East)",
+  "walkto_dest_user": "",
+  "walkto_dest_xy": "",
+  "fixed_ore_spots": [
+    [
+      0.6387434554973822,
+      0.7828571428571428
+    ],
+    [
+      0.8010471204188482,
+      0.5085714285714286
+    ]
+  ]
+}

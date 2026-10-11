@@ -1,0 +1,165 @@
+{
+  "window_title": "RSCRevolution2 - Account1",
+  "ore_checkboxes": {
+    "tin_rock": false,
+    "copper_rock": false,
+    "coal_rock": false,
+    "mithril_rock": false,
+    "iron_rock": true,
+    "adamantite_rock": false
+  },
+  "show_empty_ore": false,
+  "priority_order": [
+    "iron_rock",
+    "copper_rock",
+    "mithril_rock",
+    "tin_rock",
+    "coal_rock"
+  ],
+  "break_settings": {
+    "breaks_enabled": false,
+    "min_seconds_between_breaks": 9960,
+    "max_seconds_between_breaks": 24960,
+    "min_break_duration_seconds": 60,
+    "max_break_duration_seconds": 60
+  },
+  "mouse_settings": {
+    "min_delay_ms": 200,
+    "max_delay_ms": 500,
+    "human_curve_strength": 0.7,
+    "mouse_seed": 1322,
+    "mouse_movement_mode": "teleport"
+  },
+  "model_settings": {
+    "use_main_model": true,
+    "use_adamantite_model": false
+  },
+  "detection_settings": {
+    "confidence_threshold": 0.6673590504451039,
+    "update_interval_ms": 200,
+    "no_ore_retry_delay_ms": 500
+  },
+  "antiban_failsafe_enabled": true,
+  "powermine_enabled": false,
+  "fatigue_detection_enabled": false,
+  "stop_on_full_inventory": false,
+  "fast_mining_enabled": true,
+  "overlay_mode": "none",
+  "mouse_outside_window": false,
+  "theme": "Neumorphic",
+  "font": "Segoe UI",
+  "fixed_ore_spots": [],
+  "verbose_debug": true,
+  "lazy_idle_pause_enabled": false,
+  "camera_rotation_enabled": true,
+  "overlay_box_thickness": 1,
+  "hover_mode_enabled": false,
+  "overlay_poll_ms": 250,
+  "antiban_master_enabled": true,
+  "teleport_detection_enabled": true,
+  "teleport_threshold": 35,
+  "teleport_message": "wtf",
+  "window_brightness": 100,
+  "autologin_enabled": false,
+  "walkto_enabled": false,
+  "walkto_min_clicks": 32,
+  "walkto_max_clicks": 44,
+  "walkto_destination": "Bank (Varrock East)",
+  "mod_crown_detection_enabled": true,
+  "chat_text_stop_enabled": true,
+  "chat_text_stop_phrases": [
+    "terror",
+    "kleio"
+  ],
+  "powermine_disable_fatigue": false,
+  "teleport_reactions_text": "wtf,waeaw,what,okay,hey,what thef,whatfhekfk,wut,wowa,wow,hello??,admin?,what is there an admin here?,who tp,why tp,what tpd me for",
+  "teleport_pick_random": true,
+  "clients": [
+    {},
+    {
+      "enabled": true,
+      "window_title": "RSCRevolution2 - Account3",
+      "task": "Mining",
+      "ore_checkboxes": {
+        "tin_rock": false,
+        "copper_rock": true,
+        "iron_rock": false,
+        "coal_rock": false,
+        "mithril_rock": true
+      },
+      "walkto_enabled": false,
+      "walkto_min_clicks": 33,
+      "walkto_max_clicks": 42,
+      "walkto_dest_a": "Varrock East",
+      "walkto_dest_b": "None",
+      "walkto_dest_user": "",
+      "walkto_dest_xy": "",
+      "fixed_ore_spots": [],
+      "powermine_enabled": false,
+      "speed_mode": "super_fast"
+    },
+    {
+      "enabled": true,
+      "window_title": "RSCRevolution2 - Account4",
+      "task": "Mining",
+      "ore_checkboxes": {
+        "tin_rock": true,
+        "copper_rock": false,
+        "iron_rock": false,
+        "coal_rock": false,
+        "mithril_rock": false
+      },
+      "walkto_enabled": true,
+      "walkto_min_clicks": 35,
+      "walkto_max_clicks": 42,
+      "walkto_dest_a": "Varrock East",
+      "walkto_dest_b": "Bank (Varrock East)",
+      "walkto_dest_user": "",
+      "walkto_dest_xy": "",
+      "fixed_ore_spots": [],
+      "powermine_enabled": false,
+      "speed_mode": "super_fast"
+    },
+    {
+      "enabled": true,
+      "window_title": "RSCRevolution2 - Account5",
+      "task": "Mining",
+      "ore_checkboxes": {
+        "tin_rock": true,
+        "copper_rock": true,
+        "iron_rock": false,
+        "coal_rock": false,
+        "mithril_rock": false
+      }
+    }
+  ],
+  "speed_mode": "fast",
+  "walkto_dest1_a": "Varrock East",
+  "walkto_dest1_b": "Bank (Varrock East)",
+  "walkto_dest1_user": "VarEB",
+  "walkto_dest1_xy": "",
+  "multi_client_mode": true,
+  "tm_sleep_fatigue_threshold": 90,
+  "template_match_enabled": true,
+  "tm_sleep_enabled": false,
+  "tm_threshold": 0.72,
+  "tm_auto_close_enabled": true,
+  "tm_autowalk_beep_enabled": true,
+  "tm_standing_template_enabled": false,
+  "tm_fatigue100_enabled": true,
+  "direct_ore_preposition": true,
+  "banking_enabled": true,
+  "walkto_train1_a": "VarMin",
+  "click_verify_enabled": true,
+  "walkto_train1_b": "",
+  "walkto_train1_user": "VarMin",
+  "walkto_train1_xy": "",
+  "pause_on_user_input": false,
+  "bank_mine_slot_xy_rel": [
+    301,
+    248
+  ],
+  "clickback_enabled": false,
+  "walkto_beep1_secs": 40,
+  "walkto_beep1_enabled": true
+}

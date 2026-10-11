@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ML weights / large binaries — use LFS if you need to version these
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs / debug output
+*.log
+debug_*.png
+debug_*.jpg
+
+# Local config overrides
+config.local.json

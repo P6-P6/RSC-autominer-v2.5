@@ -1,0 +1,28 @@
+# RSC Mining Bot - Dependencies
+# Install with:  pip install -r requirements.txt
+
+# YOLO object detection
+ultralytics>=8.0.0
+
+# PyTorch (CPU version - no GPU needed)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Computer vision
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Screen capture
+mss>=9.0.0
+
+# OCR (reads in-game text like fatigue, inventory)
+easyocr>=1.7.0
+
+# Image processing (overlay rendering)
+Pillow>=10.0.0
+
+# Windows API bindings
+pywin32>=306
+
+# System monitoring
+psutil>=5.9.0
